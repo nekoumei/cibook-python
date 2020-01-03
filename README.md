@@ -11,6 +11,7 @@ numpy==1.18.0
 pandas==0.25.3
 plotly==4.4.1
 pycausalimpact==0.0.14
+rdata==0.2.1
 rpy2==3.2.4
 scikit-learn==0.21.2
 scipy==1.3.1
