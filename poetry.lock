@@ -121,20 +121,6 @@ optional = false
 python-versions = "~=3.5"
 
 [[package]]
-name = "causal-impact"
-version = "1.3.0"
-description = "Python package for causal inference using Bayesian structural time-series models."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-matplotlib = ">=1.5.3"
-numpy = ">=1.14.3"
-scipy = ">=0.18.1"
-statsmodels = ">=0.9.0"
-
-[[package]]
 name = "certifi"
 version = "2021.5.30"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -993,25 +979,6 @@ python-versions = "*"
 pyasn1 = ">=0.4.6,<0.5.0"
 
 [[package]]
-name = "pycausalimpact"
-version = "0.1.1"
-description = "Python version of Google's Causal Impact model"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-jinja2 = ">=2.10"
-matplotlib = ">=2.2.3"
-numpy = "*"
-scipy = "*"
-statsmodels = ">=0.11.0"
-
-[package.extras]
-docs = ["ipython", "jupyter"]
-testing = ["pytest", "pytest-cov", "mock", "tox"]
-
-[[package]]
 name = "pycparser"
 version = "2.20"
 description = "C parser in Python"
@@ -1594,7 +1561,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.1,<3.10"
-content-hash = "820e7606b1e630e3b13f95cd6b90ff442893e9c4f01ccb42aa3a88da1a9974b0"
+content-hash = "efb0c1a2ca9a73b4a3ded33055a8a9bfe6e4468229e35000eaeb1c6d622e9fe4"
 
 [metadata.files]
 absl-py = [
@@ -1663,9 +1630,6 @@ cached-property = [
 cachetools = [
     {file = "cachetools-4.2.2-py3-none-any.whl", hash = "sha256:2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001"},
     {file = "cachetools-4.2.2.tar.gz", hash = "sha256:61b5ed1e22a0924aed1d23b478f37e8d52549ff8a961de2909c69bf950020cff"},
-]
-causal-impact = [
-    {file = "causal_impact-1.3.0.tar.gz", hash = "sha256:cf084ab5f89c0c4a4b33feb19111f0c8e7b056ad0279a9fd1ad69b03c20f41ec"},
 ]
 certifi = [
     {file = "certifi-2021.5.30-py2.py3-none-any.whl", hash = "sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8"},
@@ -2371,10 +2335,6 @@ pyasn1-modules = [
     {file = "pyasn1_modules-0.2.8-py3.5.egg", hash = "sha256:426edb7a5e8879f1ec54a1864f16b882c2837bfd06eee62f2c982315ee2473ed"},
     {file = "pyasn1_modules-0.2.8-py3.6.egg", hash = "sha256:cbac4bc38d117f2a49aeedec4407d23e8866ea4ac27ff2cf7fb3e5b570df19e0"},
     {file = "pyasn1_modules-0.2.8-py3.7.egg", hash = "sha256:c29a5e5cc7a3f05926aff34e097e84f8589cd790ce0ed41b67aed6857b26aafd"},
-]
-pycausalimpact = [
-    {file = "pycausalimpact-0.1.1-py2.py3-none-any.whl", hash = "sha256:360c56b277a62fd4b0c2c1c6d9182593d4f9c82c48b67aa39a5feb50bdc36367"},
-    {file = "pycausalimpact-0.1.1.tar.gz", hash = "sha256:5e6d072e75369ad8bb4559f332c49f32af4f74509efd65673e3bc73ee40455fa"},
 ]
 pycparser = [
     {file = "pycparser-2.20-py2.py3-none-any.whl", hash = "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"},
